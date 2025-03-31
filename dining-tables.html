@@ -53,19 +53,50 @@
     </header>
    <section id="dining-tables">
     <h2>Dining Tables Collection</h2>
+        <section id="dining-tables">
+    <h2>Dining Tables Collection</h2>
     <div class="product-slider">
-        <!-- Replace with your images, any ratio will work now -->
-        <img src="dining1.jpg" alt="Dining Table 1">
-        <img src="dining2.jpg" alt="Dining Table 2">
-        <img src="dining3.jpg" alt="Dining Table 3">
-        <img src="dining4.jpg" alt="Dining Table 4">
-        <img src="dining5.jpg" alt="Dining Table 5">
-        <img src="dining6.jpg" alt="Dining Table 6">
-        <img src="dining7.jpg" alt="Dining Table 7">
-        <img src="dining8.jpg" alt="Dining Table 8">
-        <img src="dining9.jpg" alt="Dining Table 9">
-        <img src="dining10.jpg" alt="Dining Table 10">
+        <!-- Images are now sourced from the 'images' folder -->
+        <img src="images/dining1.jpg" alt="Dining Table 1">
+        <img src="images/dining2.jpg" alt="Dining Table 2">
+        <img src="images/dining3.jpg" alt="Dining Table 3">
+        <img src="images/dining4.jpg" alt="Dining Table 4">
+        <img src="images/dining5.jpg" alt="Dining Table 5">
+        <img src="images/dining6.jpg" alt="Dining Table 6">
+        <img src="images/dining7.jpg" alt="Dining Table 7">
+        <img src="images/dining8.jpg" alt="Dining Table 8">
+        <img src="images/dining9.jpg" alt="Dining Table 9">
+        <img src="images/dining10.jpg" alt="Dining Table 10">
     </div>
+</section>
+
+<style>
+    #dining-tables {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .product-slider {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .product-slider img {
+        width: 100%;
+        max-width: 300px; /* Adjust to control image size */
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .product-slider img:hover {
+        transform: scale(1.05); /* Adds a slight zoom effect on hover */
+    }
+</style>
+
 </section>
 
 <style>
